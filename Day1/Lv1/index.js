@@ -20,15 +20,14 @@ console.log(arr)
 
 const itCompanies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
 console.log(itCompanies);
-//lấy số lượng công ty
 
+//lấy số lượng công ty
 console.log(itCompanies.length);
 
 const numberOfCompanies = itCompanies.length;
 console.log(numberOfCompanies);
 
 //in công ty đầu, giữa và cuối
-
 const firstCompany = itCompanies[0];
 console.log(firstCompany);
 
@@ -37,6 +36,7 @@ const middleCompany = itCompanies[middleIndex];
 console.log(middleCompany)
 const lastCompany = itCompanies[itCompanies.length -1];
 console.log(lastCompany)
+
 //In ra từng công ty
 itCompanies.forEach(function(company) {
     console.log(company)
@@ -49,7 +49,6 @@ itCompanies.forEach(function(company){
 })
 
 //In mảng như một câu: Facebook, Google, Microsoft, Apple, IBM,Oracle và Amazon là những công ty CNTT lớn.
-
 const sentence = itCompanies.join(', ')+ ' là những công ty CNTT lớn.'
 console.log(sentence)
 
@@ -66,6 +65,7 @@ console.log(itCompanies);
 // Từ Z về A
 itCompanies.reverse();
 console.log(itCompanies);
+
 // Loại bỏ 3 công ty đầu 
 itCompanies.splice(0, 3);
 console.log(itCompanies);
@@ -73,6 +73,7 @@ console.log(itCompanies);
 // Cắt bỏ 3 công ty cuối cùng khỏi mảng
 itCompanies.splice(-3);
 console.log(itCompanies);
+
 // Loại bỏ các công ty CNTT trung gian khỏi mảng
 // Xóa tên cty đầu tiên
 itCompanies.shift();
