@@ -7,11 +7,11 @@ import React from "react";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="">
       <div>
-        <h3 className="text-center fw-bold">Front End Technologies</h3>
+        <h3 className="">Front End Technologies</h3>
       </div>
-      <div className="d-flex justify-content-around p-5">
+      <div>
         <img src={html} width="200" height="200" />
         <img src={css} width="200" height="200" />
         <img src={js} width="200" height="200" />
