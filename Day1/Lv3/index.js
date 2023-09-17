@@ -37,3 +37,21 @@ console.log('Max - Average:', maxDiff);
 const firstTenCountries = countries.slice(0, 10);
 console.log(firstTenCountries);
 
+//In giá từ sản phẩm bằng ForEach
+const products = [
+    { product: 'banana', price: 3 },
+    { product: 'mango', price: 6 },
+    { product: 'potato', price: ' ' },
+    { product: 'avocado', price: 8 },
+    { product: 'coffee', price: 10 },
+    { product: 'tea', price: '' },
+  ];
+  
+  products.forEach(item => {
+    if (typeof item.price === 'number' && !isNaN(item.price) && item.price !== '') {
+      console.log(`Sản phẩm: ${item.product} - Giá: ${item.price}`);
+    } else {
+      console.log(`Sản phẩm: ${item.product} - Giá không hợp lệ`);
+    }
+  });
+  
